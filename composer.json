@@ -1,0 +1,16 @@
+{
+    "name": "xml/bienesraices",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    },
+    "require": {
+        "intervention/image": "^3.4",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
